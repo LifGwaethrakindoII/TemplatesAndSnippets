@@ -1,0 +1,14 @@
+<snippet>
+	<description>Class Documentation.</description>
+	<content><![CDATA[/// <summary>${1:Description}</summary>
+/// <para>Attached to:</para>
+/// <list type="table">
+/// <listheader>
+/// <term>Scene</term>
+/// <description>GameObject</description>
+/// </listheader>
+/// <item><term>${2:Scene}</term><description>${3:GameObject}</description></item>
+/// </list>]]></content>
+	<tabTrigger>_cd</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Return Documentation.</description>
+	<content><![CDATA[/// <returns>${1:Returns}.</returns>]]></content>
+	<tabTrigger>_re</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

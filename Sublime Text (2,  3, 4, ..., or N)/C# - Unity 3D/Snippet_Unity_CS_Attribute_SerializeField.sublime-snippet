@@ -1,0 +1,6 @@
+<snippet>
+	<description>Unity's SerializeField Attribute</description>
+	<content><![CDATA[[SerializeField] private ${1:PropertyType} ${2:PropertyName}; 	/// <summary>${3:Description}.</summary>]]></content>
+	<tabTrigger>_sf</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

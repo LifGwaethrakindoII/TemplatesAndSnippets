@@ -1,0 +1,34 @@
+<snippet>
+	<description>Finite State Machine Interface Contract Methods.</description>
+	<content>
+	<![CDATA[/// <summary>Enters ${1:State_Enum} State.</summary>
+/// <param name="_state">${1:State_Enum} State that will be entered.</param>
+public void OnEnterState(${1:State_Enum} _state)
+{
+	switch(_state)
+	{
+		case ${2:State_Case}:
+		break;
+
+		default:
+		break;
+	}
+}
+
+/// <summary>Leaves ${1:State_Enum} State.</summary>
+/// <param name="_state">${1:State_Enum} State that will be left.</param>
+public void OnExitState(${1:State_Enum} _state)
+{
+	switch(_state)
+	{
+		case ${2:State_Case}:
+		break;
+
+		default:
+		break;
+	}
+}]]>
+	</content>
+	<tabTrigger>_fsm</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

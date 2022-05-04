@@ -1,0 +1,14 @@
+<snippet>
+	<description>Do-While Loop Shortcut</description>
+	<content>
+	<![CDATA[do
+{
+	${2:WhileBody}
+}while(${1:Condition})]]>
+	</content>
+	<tabTrigger>_dw</tabTrigger>
+	<scope>source.cs</scope>
+	<scope>source.java</scope>
+	<scope>source.js</scope>
+	<scope>source.c++</scope>
+</snippet>

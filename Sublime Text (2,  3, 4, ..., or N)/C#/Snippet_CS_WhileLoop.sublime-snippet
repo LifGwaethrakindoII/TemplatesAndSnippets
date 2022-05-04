@@ -1,0 +1,14 @@
+<snippet>
+	<description>While Loop Template.</description>
+	<content>
+	<![CDATA[while(${1:Condition})
+{
+	${2:WhileBody}
+}]]>
+	</content>
+	<tabTrigger>_wl</tabTrigger>
+	<scope>source.cs</scope>
+	<scope>source.java</scope>
+	<scope>source.js</scope>
+	<scope>source.c++</scope>
+</snippet>

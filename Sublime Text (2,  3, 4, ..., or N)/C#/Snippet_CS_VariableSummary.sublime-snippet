@@ -1,0 +1,6 @@
+<snippet>
+	<description>Variable documentation</description>
+	<content><![CDATA[/// <summary>${1:Description}.</summary>]]></content>
+	<tabTrigger>_va</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

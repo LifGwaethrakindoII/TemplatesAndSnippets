@@ -1,0 +1,60 @@
+<snippet>
+	<description>Flag (Bitwise) Enumerator Extension Methods.</description>
+	<content>
+	<![CDATA[/// <summary>Checks if ${1:ENUM_TYPE} enumerator contains flag.</summary>
+/// <param name='_enum'>Enumerator to make flag operation.</param>
+/// <param name='_flag'>Requested flag to check.</param>
+/// <returns>True if the ${1:ENUM_TYPE} enumerator contains flag.</returns>
+public static bool HasFlag(this ${1:ENUM_TYPE} _enum, ${1:ENUM_TYPE} _flag){ return ((_enum & _flag) == _flag); }
+
+/// <summary>Checks if ${1:ENUM_TYPE} enumerator contains flags.</summary>
+/// <param name='_enum'>Enumerator to make flags operation.</param>
+/// <param name='_flags'>Requested flags to check.</param>
+/// <returns>True if the ${1:ENUM_TYPE} enumerator contains all flags.</returns>
+public static bool HasFlags(this ${1:ENUM_TYPE} _enum, params ${1:ENUM_TYPE}[] _flags)
+{
+	for(int i = 0; i < _flags.Length; i++)
+	{
+		if(!((_enum & _flags[i]) == _flags[i])) return false;
+	}
+
+	return true;
+}
+
+/// <summary>Adds Flag [if there is not] to ${1:ENUM_TYPE} enumerator.</summary>
+/// <param name='_enum'>Enumerator to make flag operation.</param>
+/// <param name='_flag'>Flag to add to the ${1:ENUM_TYPE} enumerator.</param>
+public static void AddFlag(ref ${1:ENUM_TYPE} _enum, ${1:ENUM_TYPE} _flag){ if(!_enum.HasFlag(_flag)) _enum |= _flag; }
+
+/// <summary>Adds Flags [if there are not] to ${1:ENUM_TYPE} enumerator.</summary>
+/// <param name='_enum'>Enumerator to make flag operation.</param>
+/// <param name='_flag'>Flags to add to the ${1:ENUM_TYPE} enumerator.</param>
+public static void AddFlags(ref ${1:ENUM_TYPE} _enum, params ${1:ENUM_TYPE}[] _flags){ for(int i = 0; i < _flags.Length; i++) if(!_enum.HasFlag(_flags[i])) _enum |= _flags[i]; }
+
+/// <summary>Removes flag from ${1:ENUM_TYPE} enumerator, if it has it.</summary>
+/// <param name='_enum'>Enumerator to make flag operation.</param>
+/// <param name='_flag'>Flag to remove from ${1:ENUM_TYPE} enumerator.</param>
+public static void RemoveFlag(ref ${1:ENUM_TYPE} _enum, ${1:ENUM_TYPE} _flag){ if(_enum.HasFlag(_flag)) _enum ^= _flag; }
+
+/// <summary>Removes flags from ${1:ENUM_TYPE} enumerator, if it has it.</summary>
+/// <param name='_enum'>Enumerator to make flags operation.</param>
+/// <param name='_flags'>Flags to remove from ${1:ENUM_TYPE} enumerator.</param>
+public static void RemoveFlags(ref ${1:ENUM_TYPE} _enum, params ${1:ENUM_TYPE}[] _flags){ for(int i = 0; i < _flags.Length; i++) if(_enum.HasFlag(_flags[i])) _enum ^= _flags[i]; }
+
+/// <summary>Toggles flag from ${1:ENUM_TYPE} enumerator, if it has it.</summary>
+/// <param name='_enum'>Enumerator to make flag operation.</param>
+/// <param name='_flag'>Flag to toggle from ${1:ENUM_TYPE} enumerator.</param>
+public static void ToggleFlag(ref ${1:ENUM_TYPE} _enum, ${1:ENUM_TYPE} _flag){ _enum ^= _flag; }
+
+/// <summary>Toggles flags from ${1:ENUM_TYPE} enumerator, if it has it.</summary>
+/// <param name='_enum'>Enumerator to make flags operation.</param>
+/// <param name='_flags'>Flags to toggle from ${1:ENUM_TYPE} enumerator.</param>
+public static void ToggleFlags(ref ${1:ENUM_TYPE} _enum, params ${1:ENUM_TYPE}[] _flags){ for(int i = 0; i < _flags.Length; i++) _enum ^= _flags[i]; }
+
+/// <summary>Removes all ${1:ENUM_TYPE} enumerator's flags, leaving all its bits to '0', and on its default value.</summary>
+/// <param name='_enum'>Enumerator to make flags operation.</param>
+public static void RemoveAllFlags(ref ${1:ENUM_TYPE} _enum){ _enum = (${1:ENUM_TYPE})0; }]]>
+	</content>
+	<tabTrigger>_fen</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

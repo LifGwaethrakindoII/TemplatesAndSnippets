@@ -1,0 +1,14 @@
+<snippet>
+	<description>Unity Component's Getter.</description>
+	<content><![CDATA[/// <summary>Gets ${2:Property_Name} Component.</summary>
+public ${1:Component_Type} ${2:Property_Name}
+{ 
+	get
+	{
+		if(_${2:Property_Name} == null) _${2:Property_Name} = GetComponent<${1:Component_Type}>();
+		return _${2:Property_Name};
+	}
+}]]></content>
+	<tabTrigger>_cmp</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Parameter Documentation.</description>
+	<content><![CDATA[/// <param name="${1:varName}">${2:varDesc}.</param>]]></content>
+	<tabTrigger>_pa</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

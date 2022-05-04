@@ -1,0 +1,6 @@
+<snippet>
+	<description>XML's Default Prolog.</description>
+	<content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>]]></content>
+	<tabTrigger>_p</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

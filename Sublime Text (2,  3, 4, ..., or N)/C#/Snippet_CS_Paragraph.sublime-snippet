@@ -1,0 +1,6 @@
+<snippet>
+	<description>Paragraph Template.</description>
+	<content><![CDATA[/// <para>${1:Paragraph}.</para>]]></content>
+	<tabTrigger>_pr</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

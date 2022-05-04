@@ -1,0 +1,10 @@
+<snippet>
+	<description>Unity Update's Method.</description>
+	<content><![CDATA[/// <summary>Updates ${TM_FILENAME/\.cs//g}'s instance at each frame.</summary>
+private void Update()
+{
+	${1:UPDATE_BODY}
+}]]></content>
+	<tabTrigger>_up</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

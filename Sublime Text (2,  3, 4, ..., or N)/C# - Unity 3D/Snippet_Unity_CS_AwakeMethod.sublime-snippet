@@ -1,0 +1,10 @@
+<snippet>
+	<description>Unity Awake's Method.</description>
+	<content><![CDATA[/// <summary>${TM_FILENAME/\.cs//g}'s instance initialization when loaded [Before scene loads].</summary>
+private void Awake()
+{
+	${1:AWAKE_BODY}
+}]]></content>
+	<tabTrigger>_awk</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

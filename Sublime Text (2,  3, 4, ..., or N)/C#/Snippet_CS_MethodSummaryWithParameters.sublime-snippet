@@ -1,0 +1,7 @@
+<snippet>
+	<description>Method With Parameter Documentation.</description>
+	<content><![CDATA[/// <summary>${1:Description}.</summary>
+/// <param name="${2:varName}">${3:varDesc}.</param>]]></content>
+	<tabTrigger>_mp</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

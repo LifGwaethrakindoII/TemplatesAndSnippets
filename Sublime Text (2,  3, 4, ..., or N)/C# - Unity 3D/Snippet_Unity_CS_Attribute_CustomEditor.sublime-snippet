@@ -1,0 +1,6 @@
+<snippet>
+	<description>Unity's CustomEditor Attribute.</description>
+	<content><![CDATA[[CustomEditor(typeof(${1:TYPE}))]]]></content>
+	<tabTrigger>_ce</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>TODO documentation</description>
+	<content><![CDATA[/// \TODO ${1:Description}]]></content>
+	<tabTrigger>_to</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

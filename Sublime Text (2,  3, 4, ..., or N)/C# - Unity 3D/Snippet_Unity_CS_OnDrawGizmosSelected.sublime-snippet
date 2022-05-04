@@ -1,0 +1,10 @@
+<snippet>
+	<description>Unity OnDrawGizmosSelected's Method.</description>
+	<content><![CDATA[/// <summary>Draws Gizmos on Editor mode when ${TM_FILENAME/\.cs//g}'s instance is selected.</summary>
+private void OnDrawGizmosSelected()
+{
+	${1:ONDDRAWGIZMOSSELECTED_BODY}
+}]]></content>
+	<tabTrigger>_dgs</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

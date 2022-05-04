@@ -1,0 +1,10 @@
+<snippet>
+	<description>Unity OnDrawGizmos's Method.</description>
+	<content><![CDATA[/// <summary>Draws Gizmos on Editor mode.</summary>
+private void OnDrawGizmos()
+{
+	${1:ONDDRAWGIZMOS_BODY}
+}]]></content>
+	<tabTrigger>_dg</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

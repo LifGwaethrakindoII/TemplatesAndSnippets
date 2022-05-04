@@ -1,0 +1,6 @@
+<snippet>
+	<description>Debug Log Warning.</description>
+	<content><![CDATA[Debug.LogWarning("[${TM_FILENAME/\.cs//g}] ${2:info}");]]></content>
+	<tabTrigger>_logwarn</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

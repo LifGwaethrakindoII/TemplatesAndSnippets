@@ -1,0 +1,26 @@
+<snippet>
+	<description>Unity Project's Folder Path For Sublime Text.</description>
+	<content><![CDATA[{
+		"folders":
+		[
+			{
+				"path": "Assets//Scripts",
+				"file_exclude_patterns":
+				[
+					"*.dll",
+					"*.meta"
+				]
+			},
+			{
+				"path": "Assets//Editor",
+				"file_exclude_patterns":
+				[
+					"*.dll",
+					"*.meta"
+				]
+			}
+		]
+}]]></content>
+	<tabTrigger>_fp</tabTrigger>
+	<scope>source.json</scope>
+</snippet>

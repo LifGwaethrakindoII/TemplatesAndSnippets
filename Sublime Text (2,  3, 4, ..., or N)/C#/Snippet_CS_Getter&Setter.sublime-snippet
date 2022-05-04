@@ -1,0 +1,11 @@
+<snippet>
+	<description>Getter & Setter Documentation.</description>
+	<content><![CDATA[/// <summary>Gets and Sets ${2:Property_Name} property.</summary>
+public ${1:Property_Type} ${2:Property_Name}
+{
+	get { return _${2:Property_Name}; }
+	set { _${2:Property_Name} = value; }
+}]]></content>
+	<tabTrigger>_gs</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

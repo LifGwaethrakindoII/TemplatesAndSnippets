@@ -1,0 +1,22 @@
+<snippet>
+	<description>OnCollisionExit's Method.</description>
+	<content>
+	<![CDATA[/// <summary>Event triggered when this Collider/Rigidbody began having contact with another Collider/Rigidbody.</summary>
+/// <param name="col">The Collision data associated with this collision Event.</param>
+private void OnCollisionExit(Collision col)
+{
+	GameObject obj = col.gameObject;
+
+	switch(obj.tag)
+	{
+		case ${1:GameObjectTag}:
+		break;
+
+		default:
+		break;
+	}
+}]]>
+	</content>
+	<tabTrigger>_colex</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

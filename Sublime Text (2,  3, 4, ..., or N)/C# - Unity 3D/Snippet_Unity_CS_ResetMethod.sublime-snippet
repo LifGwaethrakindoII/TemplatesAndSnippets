@@ -1,0 +1,10 @@
+<snippet>
+	<description>Unity Reset's Method.</description>
+	<content><![CDATA[/// <summary>Resets ${TM_FILENAME/\.cs//g}'s instance to its default values.</summary>
+${1:ACCESS} void Reset()
+{
+	${2:RESET_BODY}
+}]]></content>
+	<tabTrigger>_rst</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

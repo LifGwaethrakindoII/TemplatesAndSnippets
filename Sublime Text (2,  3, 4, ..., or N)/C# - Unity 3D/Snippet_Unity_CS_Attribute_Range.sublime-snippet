@@ -1,0 +1,6 @@
+<snippet>
+	<description>Unity's Range Attribute</description>
+	<content><![CDATA[[Range(${1:minRange}, ${2:maxRange})]]]></content>
+	<tabTrigger>_ra</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

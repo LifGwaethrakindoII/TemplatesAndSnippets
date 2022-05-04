@@ -1,0 +1,10 @@
+<snippet>
+	<description>Unity OnDestroy's Method.</description>
+	<content><![CDATA[/// <summary>Callback invoked when ${TM_FILENAME/\.cs//g}'s instance is going to be destroyed and passed to the Garbage Collector.</summary>
+private void OnDestroy()
+{
+	${1:ONDESTROY_BODY}
+}]]></content>
+	<tabTrigger>_dst</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

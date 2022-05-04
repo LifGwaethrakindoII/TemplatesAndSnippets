@@ -1,0 +1,10 @@
+<snippet>
+	<description>Unity OnDisable's Method.</description>
+	<content><![CDATA[/// <summary>Callback invoked when ${TM_FILENAME/\.cs//g}'s instance is disabled.</summary>
+private void OnDisable()
+{
+	${1:ONDISABLE_BODY}
+}]]></content>
+	<tabTrigger>_od</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

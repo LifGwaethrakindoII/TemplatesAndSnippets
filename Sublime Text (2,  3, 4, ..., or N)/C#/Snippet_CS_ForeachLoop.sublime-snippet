@@ -1,0 +1,14 @@
+<snippet>
+	<description>Foreach Loop's Template.</description>
+	<content>
+	<![CDATA[foreach(${1:DataType} ${2:Element} in ${3:Collection})
+{
+	${4:ForeachBody}
+}]]>
+	</content>
+	<tabTrigger>_foreach</tabTrigger>
+	<scope>source.cs</scope>
+	<scope>source.java</scope>
+	<scope>source.js</scope>
+	<scope>source.c++</scope>
+</snippet>

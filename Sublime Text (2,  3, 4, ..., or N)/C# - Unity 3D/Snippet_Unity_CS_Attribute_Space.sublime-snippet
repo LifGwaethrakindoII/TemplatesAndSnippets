@@ -1,0 +1,6 @@
+<snippet>
+	<description>Unity's Space Attribute.</description>
+	<content><![CDATA[[Space(${1:space})]]]></content>
+	<tabTrigger>_sp</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

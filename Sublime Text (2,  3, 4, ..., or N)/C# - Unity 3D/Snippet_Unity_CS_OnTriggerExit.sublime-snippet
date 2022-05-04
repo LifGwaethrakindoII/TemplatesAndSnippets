@@ -1,0 +1,22 @@
+<snippet>
+	<description>OnTriggerExit's Method.</description>
+	<content>
+	<![CDATA[/// <summary>Event triggered when this Collider exits another Collider trigger.</summary>
+/// <param name="col">The other Collider involved in this Event.</param>
+private void OnTriggerExit(Collider col)
+{
+	GameObject obj = col.gameObject;
+
+	switch(obj.tag)
+	{
+		case ${1:GameObjectTag}:
+		break;
+
+		default:
+		break;
+	}
+}]]>
+	</content>
+	<tabTrigger>_triex</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

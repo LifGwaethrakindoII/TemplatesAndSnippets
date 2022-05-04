@@ -1,0 +1,6 @@
+<snippet>
+	<description>Method Documentation (Parameterless).</description>
+	<content><![CDATA[/// <summary>${1:Description}.</summary>]]></content>
+	<tabTrigger>_md</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

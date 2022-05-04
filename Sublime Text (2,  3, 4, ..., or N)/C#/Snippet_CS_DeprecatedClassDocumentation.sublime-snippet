@@ -1,0 +1,15 @@
+<snippet>
+	<description>Deprecated Class Documentation.</description>
+	<content><![CDATA[/// <summary><b>DEPRECATED</b>. ${1:Description}</summary>
+/// <para>Attached to:</para>
+/// <list type="table">
+/// <listheader>
+/// <term>Scene</term>
+/// <description>GameObject</description>
+/// </listheader>
+/// <item><term>${2:Scene}</term><description>${3:GameObject}</description></item>
+/// </list>
+/// <para><b>This class has been deprecated. Use ${4:newClass} instead.</b></para>]]></content>
+	<tabTrigger>_dc</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

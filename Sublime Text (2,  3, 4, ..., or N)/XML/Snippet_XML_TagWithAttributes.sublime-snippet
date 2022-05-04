@@ -1,0 +1,6 @@
+<snippet>
+	<description>XML's Tag with Attribute.</description>
+	<content><![CDATA[<${1:TAG_NAME} ${2:TAG_ATTRIBUTE_LABEL}="${3:TAG_ATTRIBUTE_VALUE}">${4:TAG_CONTENT}</${1:TAG_NAME}>]]></content>
+	<tabTrigger>_ta</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

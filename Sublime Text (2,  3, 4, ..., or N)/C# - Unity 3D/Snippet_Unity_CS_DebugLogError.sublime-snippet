@@ -1,0 +1,6 @@
+<snippet>
+	<description>Debug Log Error.</description>
+	<content><![CDATA[Debug.LogError("[${TM_FILENAME/\.cs//g}] ${2:info}");]]></content>
+	<tabTrigger>_logerror</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

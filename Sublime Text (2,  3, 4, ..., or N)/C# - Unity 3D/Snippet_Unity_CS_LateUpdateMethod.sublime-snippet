@@ -1,0 +1,10 @@
+<snippet>
+	<description>Unity LateUpdate's Method.</description>
+	<content><![CDATA[/// <summary>Updates ${TM_FILENAME/\.cs//g}'s instance at the end of each frame.</summary>
+private void LateUpdate()
+{
+	${1:LATEUPDATE_BODY}
+}]]></content>
+	<tabTrigger>_lup</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

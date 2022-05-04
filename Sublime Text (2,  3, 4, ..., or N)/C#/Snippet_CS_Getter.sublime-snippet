@@ -1,0 +1,7 @@
+<snippet>
+	<description>Getter Documentation.</description>
+	<content><![CDATA[/// <summary>Gets ${2:Property_Name} property.</summary>
+public ${1:Property_Type} ${2:Property_Name} { get { return _${2:Property_Name}; } }]]></content>
+	<tabTrigger>_g</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

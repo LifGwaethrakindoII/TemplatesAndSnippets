@@ -1,0 +1,10 @@
+<snippet>
+	<description>Unity Start's Method.</description>
+	<content><![CDATA[/// <summary>Callback invoked when scene loads, one frame before the first Update's tick.</summary>
+private void Start()
+{
+	${1:START_BODY}
+}]]></content>
+	<tabTrigger>_str</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

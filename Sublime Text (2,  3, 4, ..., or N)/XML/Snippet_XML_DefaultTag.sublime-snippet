@@ -1,0 +1,6 @@
+<snippet>
+	<description>XML's Default Tag.</description>
+	<content><![CDATA[<${1:TAG_NAME}>${2:TAG_CONTENT}</${1:TAG_NAME}>]]></content>
+	<tabTrigger>_t</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

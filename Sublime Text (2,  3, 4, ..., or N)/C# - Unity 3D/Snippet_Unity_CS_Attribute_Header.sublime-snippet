@@ -1,0 +1,6 @@
+<snippet>
+	<description>Unity's Header Attribute.</description>
+	<content><![CDATA[[Header("${1:header}")]]]></content>
+	<tabTrigger>_he</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<description>OnTriggerEnter's Method</description>
+	<content>
+	<![CDATA[/// <summary>Event triggered when this Collider enters another Collider trigger.</summary>
+/// <param name="col">The other Collider involved in this Event.</param>
+private void OnTriggerEnter(Collider col)
+{
+	GameObject obj = col.gameObject;
+
+	switch(obj.tag)
+	{
+		case ${1:GameObjectTag}:
+		break;
+
+		default:
+		break;
+	}
+}]]>
+	</content>
+	<tabTrigger>_trien</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<description>Const Template.</description>
+	<content>
+	<![CDATA[public const ${1:TYPE} ${2:NAME} = ${3:VALUE}; 	/// <summary>${4:DESCRIPTION}.</summary>]]>
+	</content>
+	<tabTrigger>_cnst</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

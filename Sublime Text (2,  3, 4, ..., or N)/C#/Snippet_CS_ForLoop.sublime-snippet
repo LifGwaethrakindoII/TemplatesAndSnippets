@@ -1,0 +1,14 @@
+<snippet>
+	<description>For Loop's Template.</description>
+	<content>
+	<![CDATA[for(int ${1:Iterator} = ${2:Initial_Value}; ${1:Iterator} < ${3:Iteration_Size}; ${1:Iterator}++)
+{
+	${4:ForBody}
+}]]>
+	</content>
+	<tabTrigger>_for</tabTrigger>
+	<scope>source.cs</scope>
+	<scope>source.java</scope>
+	<scope>source.js</scope>
+	<scope>source.c++</scope>
+</snippet>

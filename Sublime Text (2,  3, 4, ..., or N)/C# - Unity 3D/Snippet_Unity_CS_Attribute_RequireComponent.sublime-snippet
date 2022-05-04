@@ -1,0 +1,6 @@
+<snippet>
+	<description>Unity's RequireComponent Attribute.</description>
+	<content><![CDATA[[RequireComponent(typeof(${1:TYPE}))]]]></content>
+	<tabTrigger>_rc</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<description>Unity FixedUpdate's Method.</description>
+	<content><![CDATA[/// <summary>Updates ${TM_FILENAME/\.cs//g}'s instance at each Physics Thread's frame.</summary>
+private void FixedUpdate()
+{
+	${1:FIXEDUPDATE_BODY}
+}]]></content>
+	<tabTrigger>_fup</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

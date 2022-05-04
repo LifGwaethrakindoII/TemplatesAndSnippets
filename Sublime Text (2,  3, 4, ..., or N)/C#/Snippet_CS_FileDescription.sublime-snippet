@@ -1,0 +1,15 @@
+<snippet>
+	<description>File Description.</description>
+	<content><![CDATA[/*============================================================
+**
+** ${1:DATA_TYPE}:  ${2:NAME}
+**
+** Purpose: ${3:PURPOSE}.
+**
+**
+** Author: ${4:Lîf Gwaethrakindo}
+**
+==============================================================*/]]></content>
+	<tabTrigger>_dsc</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>
